@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .cross{
@@ -49,4 +49,22 @@
     font-size: 2.5em;
     border-radius: 5px;
     line-height: 100px;
+}
+
+.result{
+    font-size: 2em;
+    color: #f90;
+    text-align: center;
+}
+
+button.resetbtn {
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    margin-top: 30px;
+    background: #f44336;
+    padding: 9px 17px;
+    color: #fff;
+    font-size: 15px;
 }
